@@ -1,0 +1,5 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+<!-- 需要使用 button 来授权登录 -->
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">微信授权登录</button>
+</view>

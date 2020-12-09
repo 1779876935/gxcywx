@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+<map id="gxcymap"
+style="width: 100%; height: 100%;"
+latitude="{{latitude}}" 
+longitude="{{longitude}}"
+markers="{{markers}}"
+scale="{{scale}}"
+controls="{{controls}}"
+bindcontroltap="bindcontroltap"
+show-location
+enable-scroll>
+</map>
+</view>
